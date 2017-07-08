@@ -3,5 +3,5 @@
 バンド結成をスムーズに行う
 
 ## 作成メンバー
-1.ryo-kimizuka  
-2.ogihara
+1. ryo-kimizuka  
+2. ogihara
