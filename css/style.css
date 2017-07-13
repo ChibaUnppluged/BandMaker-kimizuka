@@ -1,4 +1,31 @@
-h1 
-{
+@charset "utf-8";
+body {
+    font-family: sans-serif;
+}
+
+h1 {
     font-size: 48px;
+}
+
+/*新着メンバー募集*/
+.recruitMember {
+    border: 3px solid black;
+    padding: 8px;
+    margin: 8px;
+    width: 500px;
+}
+.recruitMember_list article{
+    padding: 8px;
+    margin: 8px;
+    overflow: hidden;
+    background-color: lightgrey;
+}
+.recruitMember_list article figure{
+    float: left;
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+}
+.recruitMember_list_info{
+    float: left;
 }
