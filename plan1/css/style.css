@@ -124,7 +124,8 @@ header{
     display: flex;
     flex-flow: column;
 }
-.recruitMember_list article a{
+
+.recruitMember_list a{
     display: block;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
@@ -132,6 +133,9 @@ header{
 }
 .recruitMember_list article a :hover{
     background: rgba(0, 0, 0, 0.2);
+}
+.recruitMember_list_box{
+    display: flex;
 }
 .recruitMember_list figure{
     width: 3rem;
