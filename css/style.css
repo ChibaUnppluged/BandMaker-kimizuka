@@ -1,31 +1,57 @@
 @charset "utf-8";
+
+/*fromリセット*/
+
+li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*toリセット*/
+
+html {
+    width: 100%;
+    height: auto;
+}
+
 body {
     font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.6)
 }
 
-h1 {
-    font-size: 48px;
+header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
-/*新着メンバー募集*/
-.recruitMember {
-    border: 3px solid black;
-    padding: 8px;
-    margin: 8px;
-    width: 500px;
+.area-menu {
+    width: 100%;
+    height: 4rem;
 }
-.recruitMember_list article{
-    padding: 8px;
-    margin: 8px;
-    overflow: hidden;
-    background-color: lightgrey;
+
+.content-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
 }
-.recruitMember_list article figure{
-    float: left;
-    border: 3px solid black;
-    width: 50px;
-    height: 50px;
+
+li {
+    margin: 0 1rem 0 1rem;
 }
-.recruitMember_list_info{
-    float: left;
+
+main {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
