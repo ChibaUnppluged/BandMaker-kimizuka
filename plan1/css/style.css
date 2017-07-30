@@ -100,11 +100,12 @@ header{
 /* topic */
 .main_topic{
     display: flex;
-    flex: auto;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
 }
 .main_topic_box{
     flex-flow: column;
-    margin: 0.5rem;
+    width: 30%;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .main_topic_box_img{
