@@ -5,6 +5,49 @@ body {
 
 h1 {
     font-size: 48px;
+    margin: 0;
+}
+
+
+/* header部 */
+header {
+    width: 980px;
+    margin: 0 auto;
+}
+.header_bar{
+    width: 980px;
+}
+.header_bar_logo{
+    float: left;
+    margin: 0 32px;
+}
+.header_bar_logo img{
+    height: 32px;
+}
+.header_bar_menu{
+    float: left;
+    margin: 0 0 0 160px;
+}
+.header_bar_menu ul{
+    list-style: none;
+    margin: 6px 0 0;
+    padding: 0;
+}
+.header_bar_menu ul li{
+    width: 150px;
+    float: left;
+    margin-right: 2px;
+    text-align: center; 
+}
+.header_bar_menu ul li a{
+    display: block;
+    padding: 16px;
+    color: #222;
+    text-decoration: none;
+}
+
+.header_img{
+    width: 980px
 }
 
 /*新着メンバー募集*/
